@@ -5,11 +5,11 @@ import cors from "cors";
 
 dotenv.config();
 const app = express();
-const api = process.env.ArticleSearchAssign5 //Acesses the API 
+const api = process.env.ArticleSearchAssign5 
 
 app.use(
     cors({
-       origin: "http://localhost:3001"
+       origin: ["http://localhost:3001, https://dashboard.render.com"]
     })
 )
 
