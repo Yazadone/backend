@@ -9,7 +9,7 @@ const api = process.env.ArticleSearchAssign5
 
 app.use(
     cors({
-       origin: ["http://localhost:3001, https://dashboard.render.com"]
+       origin: ["http://localhost:3001, https://backend-9clt.onrender.com/"]
     })
 )
 
